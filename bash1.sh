@@ -2,7 +2,7 @@
 ##### First week practical
 ##### re-write
 
-Aliecho -n "hi there,  "
+echo -n "hi there,  "
 echo "This is my first bash"
 read  -p "Please enter your name>  " NAME
 echo "your name is $NAME"
