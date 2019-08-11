@@ -8,8 +8,8 @@
             "type": "bashdb",
             "request": "launch",
             "name": "Bash-Debug",
-            "program": "${file}"
-            "terminalKind": "external"
+            "program": "${file}",
+            "terminalKind":"integrated"
         }
     ]
 }
