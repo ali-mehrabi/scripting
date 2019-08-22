@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ -z $1 ]; then 
+   echo "You have not entered the arguement. try again"
+else 
+case "$1" in	
+"ali" | "Ali" | "ALI")
+  echo " Hi Ali" 
+  ;;
+*)
+   echo "You are not Ali"
+   ;; 
+esac 
+fi
+exit 0

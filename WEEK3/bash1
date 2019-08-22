@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -z $1 ]; then 
+   echo "You have not entered the arguement"
+
+elif [ "$1" == "ALI" ]; then       	
+   echo "Hello Ali";
+
+else
+   echo "You are not Ali" 
+fi 
+
+exit 0

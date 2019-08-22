@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p " enter folder name" FOLDERNAME
+cd $FOLDERNAME
+ls -al
+
+exit 0
