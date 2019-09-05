@@ -8,3 +8,4 @@ read  -p "Please enter your name>  " NAME
 echo "your name is $NAME"
 #Exit status
 exit 0
+
